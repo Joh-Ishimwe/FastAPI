@@ -73,7 +73,7 @@ from sklearn.preprocessing import StandardScaler
 app = FastAPI()
 
 # Load your pre-trained model and scalers
-model_path = "model/best_model.pkl"
+model_path = "model/best-model.pkl"
 scaler_X_path = "model/scaler_X.pkl"
 scaler_y_path = "model/scaler_y.pkl"
 
